@@ -11,6 +11,7 @@
   gtag('config', 'G-JH7ED3KJSY');
 </script>
     <title>KHLIONS - 캘린더</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <style>
 
@@ -135,6 +136,45 @@
             height: 80px;
             background-color: rgba(165, 42, 42, 0.8);
         }
+        @media (max-width: 768px){
+            html{
+                font-size: 62.5%;
+            }
+            .header-container{
+                display:flex;
+                flex-direction: column;
+                padding:15px;
+                padding-top: 0;
+            }
+            ul{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                text-align: center;
+                padding:0;
+                margin: 0;
+            }
+            h2{
+                margin-top: 5px;
+                font-size: 12px;
+            }
+            .body-container{
+                padding-left:0;
+                padding-right:0;
+            }
+            .cal-date{
+                font-size: 12px;
+            }
+            .cal-todo{
+                font-size: 10px;
+            }
+            span{
+                display:block;
+            }
+            .cal-container{
+                width:96%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -148,7 +188,7 @@
             <li><a href="5.html" style="color:brown; text-decoration: none;">캘린더</a></li>
         </ul>
     </div>
-    <h2>캘린더</h2>
+    <h2>3월 캘린더</h2>
     <div class="body-container">
 
         <div class="cal-container">
@@ -189,7 +229,7 @@
                 </div>
                 <div class="cal-box">
                     <div class="cal-date">  5</div>
-                    <div class="cal-todo">  17-19 정기훈련</div>
+                    <div class="cal-todo">  <span>17-19</span> <span>정기훈련</span></div>
                 </div>
                 <div class="cal-box">
                     <div class="cal-date">  6</div>
@@ -201,7 +241,7 @@
                 </div>
                 <div class="cal-box">
                     <div class="cal-date">  8</div>
-                    <div class="cal-todo">  화성시 교육</div>
+                    <div class="cal-todo">  <span>화성시</span> <span>교육</span></div>
                 </div>
             </div>
             <div class="cal-row">
@@ -211,15 +251,16 @@
                 </div>
                 <div class="cal-box">
                     <div class="cal-date">  10</div>
-                    <div class="cal-todo">  17-19 정기훈련</div>
+                    <div class="cal-todo">  <span>17-19</span> <span>정기훈련</span></div>
                 </div>
                 <div class="cal-box">
                     <div class="cal-date">  11</div>
-                    <div class="cal-todo">  17-19 자율훈련</div>
+                    <div class="cal-todo">  <span>17-19</span> <span>자율훈련</span></div>
                 </div>
                 <div class="cal-box">
                     <div class="cal-date">  12</div>
-                    <div class="cal-todo">  17-19 정기훈련</div>
+                    <div class="cal-todo">  <span>17-19</span> <span>정기훈련</span></div>
+                    <div class="cal-todo">  <span>19:30</span> <span>개총</span></div>
                 </div>
                 <div class="cal-box">
                     <div class="cal-date">  13</div>
@@ -241,15 +282,15 @@
                 </div>
                 <div class="cal-box">
                     <div class="cal-date">  17</div>
-                    <div class="cal-todo">  17-19 정기훈련</div>
+                    <div class="cal-todo">  <span>17-19</span> <span>정기훈련</span></div>
                 </div>
                 <div class="cal-box">
                     <div class="cal-date">  18</div>
-                    <div class="cal-todo">  17-19 자율훈련</div>
+                    <div class="cal-todo">  <span>17-19</span> <span>자율훈련</span></div>
                 </div>
                 <div class="cal-box">
                     <div class="cal-date">  19</div>
-                    <div class="cal-todo">  17-19 정기훈련</div>
+                    <div class="cal-todo">  <span>17-19</span> <span>정기훈련</span></div>
                 </div>
                 <div class="cal-box">
                     <div class="cal-date">  20</div>
@@ -271,15 +312,15 @@
                 </div>
                 <div class="cal-box">
                     <div class="cal-date">  24</div>
-                    <div class="cal-todo">  17-19 정기훈련</div>
+                    <div class="cal-todo">  <span>17-19</span> <span>정기훈련</span></div>
                 </div>
                 <div class="cal-box">
                     <div class="cal-date">  25</div>
-                    <div class="cal-todo">  17-19 자율훈련</div>
+                    <div class="cal-todo">  <span>17-19</span> <span>자율훈련</span></div>
                 </div>
                 <div class="cal-box">
                     <div class="cal-date">  26</div>
-                    <div class="cal-todo">  17-19 정기훈련</div>
+                    <div class="cal-todo">  <span>17-19</span> <span>정기훈련</span></div>
                 </div>
                 <div class="cal-box">
                     <div class="cal-date">  27</div>
@@ -301,7 +342,7 @@
                 </div>
                 <div class="cal-box">
                     <div class="cal-date">  31</div>
-                    <div class="cal-todo">  17-19 정기훈련</div>
+                    <div class="cal-todo">  <span>17-19</span> <span>정기훈련</span></div>
                 </div>
                 <div class="cal-nodate">
                 </div>
